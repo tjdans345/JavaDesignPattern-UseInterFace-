@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+테스트입니다. <div th:text="${result}" ></div>
+    <script th:inline="javascript">
+        // var jsonData = JSON.stringify([[${result}]]);
+        // const jsonData = JSON.parse([[${result}]]);
+        // zz123.postMessage(jsonData);
+        // if([[${result}]] == ) {
+        //
+        // }
+        zz123.postMessage([[${result}]]);
+        // zz123.postMessage(jsonData);
+
+        // zz123.postMessage();
+    </script>
+
+</body>
+</html>
